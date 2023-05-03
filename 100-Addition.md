@@ -1,34 +1,10 @@
 # Addition Checkpoint
 
-Create a function that takes two numbers.
+Create a function that takes two numbers. Your function should return the sum of the two numbers passed in.
 
-Your function should return the sum of the two numbers passed in.
+function addTwo (num1, num2) {
+let result = num 1 + num 2;
+return result
+}
 
-## Examples:
-
-### Example 1
-
-```js
-let result = yourFunction(2, 3);
-console.log(result);
-```
-
-should log 
-
-```
-5
-```
-
-### Example 2
-
-```js
-let result = yourFunction(2, 7);
-console.log(result);
-```
-
-should log
-
-
-```
-9
-```
+console.log (`Checking addTwo function. 3+5 = ?`, addTwo(3, 5);)

@@ -94,3 +94,7 @@ console.log(
   totalYearsExp(employeeInfo)
 );
 
+// # Loops and Two Dimensional Arrays Checkpoint
+// Create a function that takes in an array of arrays. Add up all of the numbers in all of the arrays and return the value.
+
+console.log("Too sleepy, time to go to bed. Another time!");

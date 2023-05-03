@@ -69,3 +69,28 @@ console.log(
   "Test of saySomethingSilly function:",
   saySomethingSilly(sillyWords, 3)
 );
+
+// # Looping through an Array of Objects Checkpoint
+
+// Create a function that takes in an array of employee objects. Each employee object will come in with a property called `yearsOfExperience`.
+// Your function should return the total years of experience for all of the employees.
+
+let employeeInfo = [
+  { name: "Tony", yearsOfExperience: 10 },
+  { name: "Carla", yearsOfExperience: 4 },
+  { name: "Kris", yearsOfExperience: 14 },
+];
+
+function totalYearsExp(array) {
+  let cumulativeYears = 0;
+  for (employee of array) {
+    cumulativeYears += employee.yearsOfExperience;
+  }
+  return cumulativeYears;
+}
+
+console.log(
+  "Test of totalYearsExp function, should say 28:",
+  totalYearsExp(employeeInfo)
+);
+

@@ -54,3 +54,18 @@ console.log(
 
 // Your function should return a string that combines all of the values
 // starting at the index of the number passed in through the end of the array.
+
+function saySomethingSilly(array, number) {
+  let sillyPhrase = "";
+  for (i = number; i < array.length; i++) {
+    sillyPhrase += array[i];
+  }
+  return sillyPhrase;
+}
+
+let sillyWords = ["blob", "stinker", "warble", "glabrous", "stipple", "chump"];
+
+console.log(
+  "Test of saySomethingSilly function:",
+  saySomethingSilly(sillyWords, 3)
+);
